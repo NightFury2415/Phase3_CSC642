@@ -1,14 +1,12 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Header } from "@/components/header"
 import { FeaturedProducts } from "@/components/featured-products"
 
 export function LandingPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1 container mx-auto px-4 py-8">
+    <div className="flex-1">
+      <main className="container mx-auto px-4 py-8">
         <div className="flex flex-col items-center justify-center mb-12">
           <h1 className="text-4xl font-bold text-sfsu-navy mb-6 text-center">SFSU MARKET PLACE</h1>
 

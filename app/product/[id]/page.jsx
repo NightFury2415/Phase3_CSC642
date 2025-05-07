@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 import { useParams } from "next/navigation"
-import { Header } from "@/components/header"
 import { ProductDetails } from "@/components/product-details"
 import { ProductReviews } from "@/components/product-reviews"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -54,9 +53,8 @@ export default function ProductPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex flex-col">
-        <Header />
-        <main className="flex-1 container mx-auto px-4 py-8">
+      <div className="flex-1">
+        <main className="container mx-auto px-4 py-8">
           <div className="animate-pulse">
             <div className="h-8 bg-gray-200 rounded w-1/3 mb-6"></div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -76,9 +74,8 @@ export default function ProductPage() {
 
   if (!product) {
     return (
-      <div className="min-h-screen flex flex-col">
-        <Header />
-        <main className="flex-1 container mx-auto px-4 py-8 flex items-center justify-center">
+      <div className="flex-1">
+        <main className="container mx-auto px-4 py-8 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-2xl font-bold mb-4">Product Not Found</h1>
             <p className="text-gray-500">The product you're looking for doesn't exist or has been removed.</p>
@@ -89,9 +86,8 @@ export default function ProductPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1 container mx-auto px-4 py-8">
+    <div className="flex-1">
+      <main className="container mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow-sm overflow-hidden">
           <div className="bg-sfsu-navy text-white p-4">
             <div className="container mx-auto flex items-center">
