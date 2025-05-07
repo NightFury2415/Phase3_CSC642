@@ -23,13 +23,6 @@ export function ProductDetails({ product }) {
     }
 
     try {
-      // In a real app, this would call an API endpoint
-      // await fetch('/api/cart', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ productId: product.id }),
-      // })
-
       toast({
         title: "Added to cart",
         description: `${product.name} has been added to your cart`,
@@ -54,12 +47,6 @@ export function ProductDetails({ product }) {
     }
 
     try {
-      // In a real app, this would call an API endpoint
-      // await fetch('/api/wishlist', {
-      //   method: wishlist ? 'DELETE' : 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ productId: product.id }),
-      // })
 
       setWishlist(!wishlist)
       toast({
@@ -103,7 +90,6 @@ export function ProductDetails({ product }) {
           </Button>
 
           <Button variant="outline" onClick={handleToggleWishlist} className={wishlist ? "bg-pink-50" : ""}>
-            <Heart className={`w-4 h-4 mr-2 ${wishlist ? "fill-pink-500 text-pink-500" : ""}`} />
             {wishlist ? "Added to wishlist" : "Add to wishlist"}
           </Button>
         </div>

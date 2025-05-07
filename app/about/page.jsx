@@ -61,9 +61,8 @@ export default function AboutPage() {
             <div className="bg-gray-200 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Thanh duong</h3>
               <p className="text-sm">
-                Full-stack developer specializing in React and Node.js.
-                Committed to creating user-friendly applications with clean
-                code.
+                I am the 4th year student in San Francisco State University. I am a Front-end web developer
+                specializing in React and Tailwind CSS. I committed to create user-friendly UI with clean code.
               </p>
             </div>
 
