@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Header } from "@/components/header"
 import { ProductGrid } from "@/components/product-grid"
 import { ProductFilters } from "@/components/product-filters"
 
@@ -93,31 +92,28 @@ export default function MarketplacePage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1">
-        <div className="bg-sfsu-navy text-white p-4">
-          <div className="container mx-auto flex items-center">
-            <h1 className="text-xl font-bold">Marketplace</h1>
-          </div>
+    <div className="flex-1">
+      <div className="bg-sfsu-navy text-white p-4">
+        <div className="container mx-auto flex items-center">
+          <h1 className="text-xl font-bold">Marketplace</h1>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 py-8">
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">Filter</h2>
+          <ProductFilters
+            onCategoryChange={handleCategoryChange}
+            onPriceRangeChange={handlePriceRangeChange}
+            onConditionChange={handleConditionChange}
+            activeCategory={activeCategory}
+            priceRange={priceRange}
+            condition={condition}
+          />
         </div>
 
-        <div className="container mx-auto px-4 py-8">
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Filter</h2>
-            <ProductFilters
-              onCategoryChange={handleCategoryChange}
-              onPriceRangeChange={handlePriceRangeChange}
-              onConditionChange={handleConditionChange}
-              activeCategory={activeCategory}
-              priceRange={priceRange}
-              condition={condition}
-            />
-          </div>
-
-          <ProductGrid products={filteredProducts} loading={loading} />
-        </div>
-      </main>
+        <ProductGrid products={filteredProducts} loading={loading} />
+      </div>
     </div>
   )
 }

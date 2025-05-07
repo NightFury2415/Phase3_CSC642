@@ -67,7 +67,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white p-4">
+    <div className="flex-1 flex items-center justify-center bg-white p-4">
       <div className="w-full max-w-md">
         <div className="flex justify-center mb-6">
           <Image src="/images/sfsu-logo.png" alt="SFSU Marketplace Logo" width={180} height={60} className="h-auto" />
