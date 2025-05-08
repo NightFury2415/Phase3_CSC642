@@ -49,7 +49,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-gray-200 p-6 rounded-lg">
+            <div className="bg-black text-white p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Ehab Almaznai</h3>
               <p className="text-sm">
                 I'm a 4th year student in San Francisco State University. I am a
@@ -68,7 +68,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-gray-200 p-6 rounded-lg">
+            <div className="bg-black text-white p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Eduardo Rodriguez</h3>
               <p className="text-sm">
                 I am a 4th year Computer Science student at SFSU with an
