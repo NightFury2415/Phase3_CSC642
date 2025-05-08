@@ -58,7 +58,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-black p-6 rounded-lg">
+            <div className="bg-black text-white p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Thanh duong</h3>
               <p className="text-sm">
                 I am the 4th year student in San Francisco State University. I am a Front-end web developer
