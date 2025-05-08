@@ -33,7 +33,7 @@ export default function AboutPage() {
             <div className="bg-black text-white p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Naing Htet</h3>
               <p className="text-sm">
-                I&apos;m a dedicated and purpose-driven computer science student
+                I&apos;m a senior and a dedicated and purpose-driven computer science student
                 at San Francisco State University with a strong interest in
                 software engineering and full-stack development. My experience
                 in backend and frontend technologies and curiosity has led me to
@@ -52,25 +52,31 @@ export default function AboutPage() {
             <div className="bg-gray-200 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Ehab Almaznai</h3>
               <p className="text-sm">
-                I'm a 4th year student in San Francisco State University. I am a 
-                hard working student who wants to achieve big goals. I enjoy learning
-                and finding new methods and enjoying gaining new knowledge. 
+                I'm a 4th year student in San Francisco State University. I am a
+                hard working student who wants to achieve big goals. I enjoy
+                learning and finding new methods and enjoying gaining new
+                knowledge.
               </p>
             </div>
 
             <div className="bg-black text-white p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Thanh duong</h3>
               <p className="text-sm">
-                I am the 4th year student in San Francisco State University. I am a Front-end web developer
-                specializing in React and Tailwind CSS. I committed to create user-friendly UI with clean code.
+                I am the 4th year student in San Francisco State University. I
+                am a Front-end web developer specializing in React and Tailwind
+                CSS. I committed to create user-friendly UI with clean code.
               </p>
             </div>
 
             <div className="bg-gray-200 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Eduardo Rodriguez</h3>
               <p className="text-sm">
-                UI/UX designer with a background in Computer Science. Focused on
-                creating intuitive and accessible user experiences.
+                I am a 4th year Computer Science student at SFSU with an
+                interest in Software development in Software Development and IT
+                trouble shooting.Throughout my studies, I’ve gained practical
+                experience with technologies like Docker, MySQL, Node.js, React,
+                and Python. I enjoy working on projects that challenge me to
+                think critically and improve my skills.
               </p>
             </div>
           </div>
